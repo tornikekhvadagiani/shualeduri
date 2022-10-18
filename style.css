@@ -21,8 +21,7 @@ ul{
 .sectionAside {
     display: flex;
     flex-direction: column;
-    background-color: black;
-    max-width: 15%;  
+    background-color: black;  
 }
 .sectionAside p{
     color: white;
@@ -32,7 +31,6 @@ ul{
 .sectionAside div{
     display: flex;
     align-items: center;
-
 }
 .section1{
     display: flex;
@@ -58,14 +56,14 @@ ul{
     flex-direction: column;
 }
 article {
-    max-width: 20%;
+    max-width: 25%;
 }
 
 .load{
     display: flex;
     justify-content: center;
 }
-.topview{
+.top{
     display: flex;
     justify-content: space-around;
 }
@@ -102,7 +100,7 @@ article {
     height: 50px;
 
 }
-.footer{
+.footerAll{
     display: flex;
     justify-content: space-around;
 }
@@ -120,6 +118,53 @@ article {
 }
 .footeIcon{
     display: flex;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 15% 80%;
+    align-items: center;
+    gap: 20px ;
+    grid-template-areas:
+    "sectionAside nav"
+    "sectionAside section1"
+    "sectionAside section2"
+    "sectionAside section3"
+    "none load"
+    "none topview "
+    "none section4"
+    "none footerAll"
+    "footerIcon nine"
+}
+.sectionAside{
+    grid-area:sectionAside ;
+}
+.nav{
+    grid-area:nav ;
+}
+.section1{
+    grid-area:section1 ;
+}
+.section2{
+    grid-area:section2 ;
+}
+.section3{
+    grid-area:section3 ;
+}
+.load{
+    grid-area:load ;
+}
+.topview {
+    grid-area:topview ;
+}
+
+.section4{
+    grid-area:section4 ;
+}
+.footerAll{
+    grid-area:footerAll ;
+}
+.footerIcon{
+    grid-area:footerIcon ;
 }
 
 

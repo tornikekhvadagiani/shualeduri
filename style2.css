@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-size: 100%;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+    display: flex; 
+}
+.MagnifyinGlass{
+    margin-left:  -10%;
+
+}
+.sectionAside {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    max-width: 15%;  
+}
+.sectionAside p{
+    color: white;
+    padding: 15px;
+
+}
+.sectionAside div{
+    display: flex;
+    align-items: center;
+}
