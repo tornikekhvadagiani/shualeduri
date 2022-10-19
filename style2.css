@@ -10,6 +10,14 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 95%;
+    height: auto;
+}
+.UploadHover:hover {
+    background-color: #FF2288;
+  }
+.GoProHover:hover{
+    color: #FF2288;
 }
 .search{
     display: flex; 
@@ -21,8 +29,7 @@ ul{
 .sectionAside {
     display: flex;
     flex-direction: column;
-    background-color: black;
-    max-width: 15%;  
+    background-color: black;  
 }
 .sectionAside p{
     color: white;
@@ -32,4 +39,89 @@ ul{
 .sectionAside div{
     display: flex;
     align-items: center;
+}
+.sectionAside div:hover {
+    background-color: #FF2288;
+  }
+.format, .user1, .user2, .user3, .user4,
+.user5, .user6, .user7, .user8, .user9,
+.user10, .footerIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95%;
+}
+.footerAll{
+    display: flex;
+    justify-content: space-around;
+}
+.footer1, .footer2, .footer3,.footer4  {
+    display: flex;
+    flex-direction: column;
+}
+.footeIcon{
+    display: flex;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 20% 75%;
+    align-items: center;
+    gap: 30px ;
+    grid-template-areas:
+    "sectionAside nav"
+    "sectionAside format"
+    "sectionAside user1"
+    "sectionAside user2"
+    "sectionAside user3"
+    "sectionAside user4"
+    "sectionAside user5 "
+    "sectionAside user6"
+    "sectionAside user7"
+    "sectionAside user8"
+    "sectionAside user9"
+    "sectionAsidene user10"
+    "none footerAll"
+    "footerIcon footerIcon"
+}
+.sectionAside{
+    grid-area: sectionAside ;
+}
+.nav{
+    grid-area: nav ;
+}
+.user1{
+    grid-area: user1 ;
+}
+.user2{
+    grid-area: user2 ;
+}
+.user3{
+    grid-area: user3 ;
+}
+.user4{
+    grid-area: user4 ;
+}
+.user5{
+    grid-area: user5 ;
+}
+.user6{
+    grid-area: user6 ;
+}
+.user7{
+    grid-area: user7 ;
+}
+.user8{
+    grid-area: user8 ;
+}
+.user9{
+    grid-area: user9 ;
+}
+.user10{
+    grid-area: user10 ;
+}
+.footerAll{
+    grid-area:footerAll ;
+}
+.footerIcon{
+    grid-area:footerIcon ;
 }

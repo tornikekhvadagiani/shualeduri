@@ -10,6 +10,14 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 95%;
+    height: auto;
+}
+.UploadHover:hover {
+    background-color: #FF2288;
+  }
+.GoProHover:hover{
+    color: #FF2288;
 }
 .search{
     display: flex; 
@@ -32,9 +40,14 @@ ul{
     display: flex;
     align-items: center;
 }
+.sectionAside div:hover {
+    background-color: #FF2288;
+  }
 .section1{
     display: flex;
     justify-content: space-between;
+    max-width: 95%;
+    height: auto;
 }
 .Filtres{
     display: flex;
@@ -74,6 +87,7 @@ article {
 .section4{
     display: flex;
     justify-content: space-between;
+    max-width: 95%;
 
 }
 .section4 article{
@@ -104,18 +118,11 @@ article {
     display: flex;
     justify-content: space-around;
 }
-.footer1{
+.footer1, .footer2, .footer3,.footer4  {
     display: flex;
     flex-direction: column;
 }
-.footer2{
-    display: flex;
-    flex-direction: column;
-}
-.footer3{
-    display: flex;
-    flex-direction: column;
-}
+
 .footeIcon{
     display: flex;
 }
@@ -123,7 +130,7 @@ article {
     display: grid;
     grid-template-columns: 15% 80%;
     align-items: center;
-    gap: 20px ;
+    gap: 30px ;
     grid-template-areas:
     "sectionAside nav"
     "sectionAside section1"
@@ -136,35 +143,34 @@ article {
     "footerIcon nine"
 }
 .sectionAside{
-    grid-area:sectionAside ;
+    grid-area: sectionAside ;
 }
 .nav{
-    grid-area:nav ;
+    grid-area: nav ;
 }
 .section1{
-    grid-area:section1 ;
+    grid-area: section1 ;
 }
 .section2{
-    grid-area:section2 ;
+    grid-area: section2 ;
 }
 .section3{
-    grid-area:section3 ;
+    grid-area: section3 ;
 }
 .load{
-    grid-area:load ;
+    grid-area: load ;
 }
 .topview {
-    grid-area:topview ;
+    grid-area: topview ;
 }
-
 .section4{
-    grid-area:section4 ;
+    grid-area: section4 ;
 }
 .footerAll{
-    grid-area:footerAll ;
+    grid-area: footerAll ;
 }
 .footerIcon{
-    grid-area:footerIcon ;
+    grid-area: footerIcon ;
 }
 
 
